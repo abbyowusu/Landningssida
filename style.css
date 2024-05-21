@@ -1,0 +1,291 @@
+body {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.hero {
+  height: 815px;
+  background-image: url(bilder/hero.jpg);
+  background-size: cover;
+  background-position: center top;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+}
+
+.navbar {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.CTA {
+  background-color: rgb(34, 112, 247);
+  color: white;
+  padding: 14px;
+  border-radius: 20px;
+  border-style: none;
+}
+
+.navlinks {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.navlinks li {
+  margin: 10px;
+}
+
+.navlinks a {
+  color: white;
+}
+
+.displaytext {
+  color: white;
+  justify-content: center;
+  text-align: center;
+  margin: 10px 450px;
+}
+
+.heading {
+  font-size: 78px;
+}
+
+.subheading {
+  font-size: 22px;
+  margin: 0px 180px;
+}
+
+.aboutpic {
+  height: 600px;
+  margin-top: 90px;
+  padding: 60px;
+}
+
+.aboutbox {
+  justify-content: center;
+  background-color: rgba(231, 231, 231, 0.957);
+  height: 815px;
+  display: flex;
+  flex-direction: row;
+}
+
+.abouttext {
+  width: 500px;
+  height: 400px;
+  margin-top: 150px;
+  padding: 60px;
+  font-size: 20px;
+}
+
+.abouthead {
+  margin: 0px;
+  margin-bottom: -30px;
+}
+
+.headline {
+  font-size: 42px;
+  margin-bottom: 40px;
+}
+
+p {
+  margin: 0px;
+}
+
+.aboutbuttons {
+  padding: 20px;
+}
+
+.apply {
+  background-color: black;
+  color: white;
+  padding: 14px;
+  padding-inline: 24px;
+  border-radius: 24px;
+  border-style: none;
+  margin: 20px;
+}
+
+.readMore {
+  color: black;
+  padding: 14px;
+  border-radius: 24px;
+  border-style: inset;
+  border-color: black;
+  margin: 20px;
+}
+
+.recommendations {
+  height: 715px;
+}
+
+.recommendationhead {
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.studenter {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.student1 {
+  height: 300px;
+}
+
+.student2 {
+  height: 300px;
+}
+
+.student3 {
+  height: 300px;
+}
+
+.rtext1 {
+  font-size: 20px;
+  color: black;
+  width: 450px;
+  font-size: 20px;
+}
+
+.rtext2 {
+  font-size: 20px;
+  color: black;
+  width: 450px;
+  font-size: 20px;
+}
+
+.rtext3 {
+  font-size: 20px;
+  color: black;
+  width: 450px;
+  font-size: 20px;
+}
+
+.application {
+  height: 615px;
+  background-color: rgb(44, 121, 255);
+  display: flex;
+  flex-direction: row;
+}
+
+.applyinfo {
+  width: 700px;
+  margin-left: 180px;
+  margin-top: 100px;
+  font-size: 20px;
+  color: white;
+}
+
+.applyheadline {
+  font-size: 42px;
+}
+
+.applybuttons {
+  padding: 20px;
+}
+
+.applyDirectly {
+  background-color: white;
+  color: rgb(44, 121, 255);
+  padding: 14px;
+  padding-inline: 24px;
+  border-radius: 24px;
+  border-style: none;
+  margin: 20px;
+}
+
+.howApply {
+  background-color: rgb(44, 121, 255);
+  color: white;
+  padding: 14px;
+  padding-inline: 24px;
+  border-radius: 24px;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin: 20px;
+}
+
+.video {
+  height: 400px;
+  width: 300px;
+  padding: 60px;
+}
+
+.footer {
+  height: 400px;
+  background-color: #f8f9f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  list-style-type: none;
+  height: 300px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 200px;
+}
+
+.chaslogo {
+  height: 200px;
+  width: 200px;
+}
+
+.socialmedia {
+  height: 50px;
+  width: auto;
+  margin-top: 10px;
+}
+
+.logocontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 200px;
+}
+
+.contact {
+  font-size: 20px;
+}
+
+.follow {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
